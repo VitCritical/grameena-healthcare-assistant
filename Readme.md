@@ -8,7 +8,7 @@ Built with ❤️ for the **Code for Telangana Hackathon**, it empowers communit
 
 ## 🚀 Live Demo
 
-🔗 [Visit App]([https://your-deployment-url.com](https://grameena-health.netlify.app/))
+🔗 [Visit App](https://your-deployment-url.com](https://grameena-health.netlify.app/)
 
 ---
 
