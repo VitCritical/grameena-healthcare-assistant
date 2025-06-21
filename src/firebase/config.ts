@@ -5,11 +5,11 @@ import { getFirestore } from 'firebase/firestore';
 // Firebase configuration
 // Replace with your actual Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyDEFRrd28RN2TpI-c93zyOJhpu9F4ZSLtw",
-  authDomain: "grameena-healthcare-assistant.firebaseapp.com",
-  projectId: "grameena-healthcare-assistant",
-  messagingSenderId: "1075838137231",
-  appId: "1:1075838137231:web:01c06008ce3811a0d011fa"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
